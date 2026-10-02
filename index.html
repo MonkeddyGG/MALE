@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malé Wellness House | Entrenamiento Premium</title>
+
+    <!-- Fuentes Premium: Cinzel (Elegancia/Fuerza) y Manrope (Modernidad/Legibilidad) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Manrope:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Iconos (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navegación Glassmorphism -->
+    <header id="header">
+        <div class="container nav-wrapper">
+            <a href="#inicio" class="logo">Malé<span>.</span></a>
+
+            <button class="menu-btn" id="menu-btn" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav id="navbar" class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Disciplinas</a></li>
+                    <li><a href="#horarios">Horarios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Hero con Parallax -->
+        <section id="inicio" class="hero">
+            <!-- Imagen de fondo separada para animar el parallax -->
+            <div class="hero-bg" id="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content reveal">
+                <h1>Redefine tu<br><span>Bienestar</span></h1>
+                <p>Instalaciones exclusivas para entrenamiento 1 a 1, pilates reformer, box y recuperación profunda.</p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn btn-primary">Agenda tu clase</a>
+                    <a href="#servicios" class="btn btn-outline">Descubre más</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Nosotros -->
+        <section id="nosotros" class="about section-padding">
+            <div class="container about-grid">
+                <div class="about-image reveal">
+                    <!-- Imagen de alta estética, tonos oscuros y esfuerzo -->
+                    <img src="https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?q=80&w=1470&auto=format&fit=crop"
+                        alt="Entrenamiento y recuperación en Malé">
+                    <div class="image-accent"></div>
+                </div>
+                <div class="about-text reveal">
+                    <span class="subtitle">Nuestra Filosofía</span>
+                    <h2>Un oasis de fuerza en la ciudad.</h2>
+                    <p>En Malé Wellness House, fusionamos la disciplina implacable del entrenamiento físico con la
+                        máxima calma mental. Diseñamos programas biomecánicos adaptados a tu cuerpo, ofreciendo desde
+                        sesiones intensas de box hasta recuperación clínica en nuestro sauna y cold plunge.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check"></i> Atención 100% personalizada</li>
+                        <li><i class="fas fa-check"></i> Equipamiento biomecánico de vanguardia</li>
+                        <li><i class="fas fa-check"></i> Ambientes diseñados para enfoque absoluto</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Servicios -->
+        <section id="servicios" class="services section-padding bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="subtitle">Disciplinas Premium</span>
+                    <h2>Encuentra tu balance</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card reveal">
+                        <i class="fas fa-spa icon"></i>
+                        <h3>Pilates Reformer & Mat</h3>
+                        <p>Fortalece tu core, mejora tu flexibilidad y corrige tu postura con rutinas controladas bajo
+                            máxima precisión.</p>
+                    </div>
+                    <div class="service-card reveal" style="transition-delay: 0.15s;">
+                        <i class="fas fa-dumbbell icon"></i>
+                        <h3>1:1 Training & Box</h3>
+                        <p>Alcanza tus metas con entrenamiento de hipertrofia y libera tensión con técnica profesional
+                            de boxeo.</p>
+                    </div>
+                    <div class="service-card reveal" style="transition-delay: 0.3s;">
+                        <i class="fas fa-water icon"></i>
+                        <h3>Sauna & Cold Plunge</h3>
+                        <p>Acelera tu recuperación muscular, reduce la inflamación y forja resiliencia mental con
+                            terapia de contraste.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Horarios y Testimonios -->
+        <section id="horarios" class="info-section section-padding">
+            <div class="container info-grid">
+                <div class="schedule-card reveal">
+                    <h3>Horarios de Acceso</h3>
+                    <p class="schedule-desc">Adapta tu rutina a tu estilo de vida. Tu tiempo, tus reglas.</p>
+                    <ul class="schedule-list">
+                        <li><span><i class="far fa-clock"></i> Lunes a Viernes</span> <span>6:00 AM - 10:00 PM</span>
+                        </li>
+                        <li><span><i class="far fa-clock"></i> Sábados</span> <span>7:00 AM - 2:00 PM</span></li>
+                        <li><span><i class="far fa-clock"></i> Domingos</span> <span class="highlight">Descanso</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="reviews-card reveal" style="transition-delay: 0.2s;">
+                    <h3>Excelencia Comprobada</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <span>5.0 / 5.0</span>
+                    </div>
+                    <div class="testimonial">
+                        <p>"El nivel de exclusividad y detalle es inigualable en Narvarte. Las instalaciones son
+                            sobrias, el equipo impecable y el cold plunge cambia las reglas del juego en mi
+                            recuperación."</p>
+                        <p class="author">— Cliente Elite Verificado</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="contact section-padding bg-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="subtitle">Únete al club</span>
+                    <h2>Visita Malé Wellness</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-details reveal">
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Nicolás San Juan 202, Narvarte Poniente, CDMX.</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                            <div>
+                                <h4>Atención Concierge</h4>
+                                <p>+52 55 1912 3337</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="icon-box"><i class="fab fa-instagram"></i></div>
+                            <div>
+                                <h4>Instagram</h4>
+                                <p><a href="https://instagram.com/male_wellnesshouse"
+                                        target="_blank">@male_wellnesshouse</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-wrapper reveal" style="transition-delay: 0.2s;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1518066597!2d-99.1620!3d19.3950!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDIzJzQyLjAiTiA5OcKwMDknNDMuMiJX!5e0!3m2!1ses!2smx!4v1690000000000!5m2!1ses!2smx"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#inicio" class="logo">Malé<span>.</span></a>
+                <p>Tu santuario de bienestar integral en la Ciudad de México. Fuerza, estética y recuperación profunda.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Filosofía</a></li>
+                    <li><a href="#servicios">Disciplinas</a></li>
+                    <li><a href="#horarios">Accesos</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Comunidad</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Malé Wellness House. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón WhatsApp -->
+    <a href="https://wa.me/525519123337" class="whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
